@@ -1,0 +1,29 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  > * + * {
+    margin-left: 12px;
+  }
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 800px;
+  flex: none;
+}
+
+.modesSelector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.modesSelector > * + * {
+  margin-inline-start: 20px;
+}
