@@ -7,7 +7,7 @@ let aud = null; // audio
 
 let settings;
 
-export let player;
+let player;
 
 export const morty = {
   x: 159,
