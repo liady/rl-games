@@ -9,7 +9,7 @@ let settings;
 
 export let player;
 
-export const morty = {
+const morty = {
   x: 159,
   y: 50,
   speed: 0.8,
